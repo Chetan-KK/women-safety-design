@@ -136,12 +136,14 @@ cursor: pointer;
 }
 .defence .videos{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .defence .videos .video iframe{
-    width: 25rem;
+    width: 24vw;
     opacity: 80%;
-    height: 15rem;
+    height: 13rem;
     margin: 1rem;
     box-shadow: 0 0 10px black;
     border-radius: 20px;
